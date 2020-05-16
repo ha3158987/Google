@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.main-text-box {
+   padding-top: 50px;
+   margin: 0 auto;
+   position: absolute;
+   top: 15%;
+   width: 1140px;
+   text-align: center;
+}
+
+.Google-logo {
+    height: 260px;
+    width: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+.search-box {
+    display: inline-block;
+    padding: 15px 380px 15px 30px;
+    font-weight: 300;
+    border-radius: 200px;
+    box-shadow: 3px 3px 5px 3px rgba(83, 83, 83, 0.596);
+
+}
+
+.buttons {
+    position: absolute;
+    width: 1140px;
+    top: 70%;
+    left: 35%;
+    display:inline-block;
+    padding: 10px 30px;
+}
+
+.btn:link {
+    text-decoration: none;
+    font-weight: 250;
+    margin-right: 15px;
+    padding: 15px;
+    border-radius: 3px;
+    color: #7f8c8d;
+    background-color: rgb(240, 236, 236);
+}
+
+.main-nav {
+    padding-left: 800px;
+}
+
+.main-nav li a {
+    padding-bottom: 25px;
+    float: right;
+    list-style: none;  
+    text-decoration: none;  
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: rgb(58, 56, 56)
+}
+
+.icon {
+    height:90px;
+    width: auto;
+    padding-top: 35px;
+    margin-bottom: 20%;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;  
+}
+
+#login-box {
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 2px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(96, 143, 230);
+    margin-bottom: 25%;
+}
